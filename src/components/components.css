@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.bar, .chat{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+.bar:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.chat:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.chatWindow{
+    margin: 30px;
+}
+.inputvalue{
+    text-align: right;
+}
+.form{
+    text-align: center;
+}
